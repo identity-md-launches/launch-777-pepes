@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Pepes",
+    "name": "Pepes",
+    "symbol": "PEPES",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":8800,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0x249b317bd3f437c3f6834909dc167fc6aa73dd66"},
+  "notes": "Pepes (PEPES), implemented in src/Pepes.sol, has 18 decimals and a no-argument constructor that mints the entire fixed supply of 1,000,000,000 tokens once to msg.sender. Token transfers have no fee. There are no application contracts or initialization calls. The pool fee is 0.3%. pool.initialPrice is a 1:1 sqrtPriceX96 provenance value only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply with the currencies in pool order."
+}
